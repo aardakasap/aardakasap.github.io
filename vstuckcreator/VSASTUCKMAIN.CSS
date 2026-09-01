@@ -1,0 +1,128 @@
+
+body {
+    background-color: #0b0b0b;
+  }
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    text-align: center;
+  }
+
+.next {
+    color: rgb(255, 255, 255);
+    font-size: 31px;
+}
+
+.goback {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+
+#audio-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+.chatpester{
+    text-align: center;
+    color: rgb(192, 192, 192);
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.chatphoto{
+    width: 150px;
+}
+
+.storytext{
+    font-family: 'Adobe Garamond Pro Regular';
+    font-size: 22px;
+    text-align: center;
+    color: rgb(192, 192, 192);
+}
+
+.speak{
+    font-family: 'Adobe Garamond Pro Regular';
+    font-size: 19px;
+}
+
+.chat {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.aegis {
+    color: #97c382;
+}
+.apollo {
+    color: #ff9900;
+}
+.atlas {
+    color: #17c0b7;
+}
+.dusty {
+    color: #4179f1;
+}
+.alp {
+    color: #e800ff;
+}
+.tarda {
+    color: #00c878;
+}
+.pel {
+    color: #fac8d5;
+}
+.joseph {
+    color: #204400;
+}
+.eri {
+    color: #ffa17f;
+}
+.coy {
+    color: #ff6363;
+}
+
+@font-face {
+    font-family: 'Adobe Garamond Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adobe Garamond Pro Regular'), url('Font/AGaramondPro-Regular.woff') format('woff');
+    }
+
+
+@font-face {
+    font-family: 'Adobe Garamond Pro Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adobe Garamond Pro Italic'), url('AGaramondPro-Italic.woff') format('woff');
+    }
+
+
+@font-face {
+    font-family: 'Adobe Garamond Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adobe Garamond Pro Bold'), url('AGaramondPro-Bold.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Adobe Garamond Pro Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adobe Garamond Pro Bold Italic'), url('Font/AGaramondPro-BoldItalic.woff') format('woff');
+    }

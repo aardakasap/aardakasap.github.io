@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Vstuck Creator</title>
+        <link rel="stylesheet" type="text/css" href="vstuckcreator.css">
+    </head>
+    <body>
+        <div class="maindiv">
+            <h2 style="font-size: 60px; color: white; text-align: center;">
+                Vstuck Creator
+            </h2>
+            <div class="bruh">
+                <h2 class="title">Title</h2>
+                <input class="iinput" type="text" id="title" placeholder="Title" size="12">
+                <h2 class="title">Sound</h2>
+                <input class="iinput" type="checkbox" id="sound">
+                <p>Sound Name:</p>
+                <input class="iinput" type="text" id="sname" placeholder="example.mp3" size="12">
+            </div>
+            <br>
+            <div class="bruh">
+                <h2 class="title">Border</h2>
+                <p>Border Color:</p>
+                <input class="iinput" type="text" id="border" placeholder="HEX" size="12">
+                <h2 class="title">Gradient</h2>
+                <input class="iinput" type="checkbox" id="gradient">
+                <p>Second Color:</p>
+                <input class="iinput" type="text" id="scolor" placeholder="HEX" size="12">
+            </div>
+            <br>
+            <div class="bruh">
+                <h2 class="title">Image</h2>
+                <p>Width</p>
+                <input class="iinput" type="text" id="width" placeholder="Width" size="4">
+                <p>Height:</p>
+                <input class="iinput" type="text" id="height" placeholder="Height" size="4">
+                <p>Image Name:</p>
+                <input class="iinput" type="text" id="image" placeholder="example.png" size="12">
+            </div>
+            <br>
+            <div class="bruh">
+                <h2 class="title">Go Back</h2>
+                <input class="iinput" type="text" id="goback" placeholder="example.html" size="12">
+                <h2 class="title">Next</h2>
+                <input class="iinput" type="text" id="next" placeholder="example.html" size="12">
+                <p>Next Text:</p>
+                <input class="iinput" type="text" id="nname" placeholder="Next Text" size="12">
+            </div>
+            <br>
+            <div id="maintext">
+                <div class="bruh" id="story">
+                    <h2 class="title">Story Text</h2>
+                    <textarea id="story" cols="30" rows="1"></textarea>
+                </div>
+                <div class="bruh" id="dialog">
+                    <h2 class="title">Dialog Text</h2>
+                    <select id="dialog">
+                        <option value="aegis">Aegis</option>
+                        <option value="apollo">Apollo</option>
+                        <option value="atlas">Atlas</option>
+                        <option value="dusty">Dusty</option>
+                        <option value="alp">Alp</option>
+                        <option value="tarda">Tarda</option>
+                        <option value="pel">Pel</option>
+                        <option value="joseph">Joseph</option>
+                        <option value="eri">Eri</option>
+                        <option value="coy">Coy</option>
+                    </select>
+                    <textarea id="dialog" cols="30" rows="1"></textarea>
+                </div>
+                <div class="bruh" id="pesterchum">
+                    <h2 class="title">Pesterchum Text</h2>
+                    <select id="pesterchum">
+                        <option value="info">Info</option>
+                        <option value="aegis">Aegis</option>
+                        <option value="apollo">Apollo</option>
+                        <option value="atlas">Atlas</option>
+                        <option value="dusty">Dusty</option>
+                        <option value="alp">Alp</option>
+                        <option value="tarda">Tarda</option>
+                        <option value="pel">Pel</option>
+                        <option value="joseph">Joseph</option>
+                        <option value="eri">Eri</option>
+                        <option value="coy">Coy</option>
+                    </select>
+                    <textarea id="pesterchum" cols="30" rows="1"></textarea>
+                </div>
+            </div>
+            <div class="button">
+                <button onclick="story()">New Story Text</button>
+                <button onclick="dialog()">New Dialog Text</button>
+                <button onclick="pesterchum()">New Pesterchum Text</button>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <button onclick="submit()">Submit</button>
+            </div>
+            <p id="final"></p>
+            <br>
+            <br>
+        </div>
+        <h2 style="font-size: 60px; color: white; text-align: center;">
+            Preview
+        </h2>
+        <p id="preview"></p>
+        <script src="vstuckcreator.js"></script>
+    </body>
+</html>
