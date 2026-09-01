@@ -1,67 +1,41 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
     <head>
-        <link rel='shortcut icon' type='image/x-icon' href='../Images/favicon.ico' />
-        <meta charset='UTF-8'>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vstuck</title>
-        <link rel='stylesheet' type='text/css' href='VSASTUCKMAIN.CSS'>
         <style>
-        .main{
-            border: 5px outset #00A2E8;
-            background-color: #b0d9e5;
-            width: 1100px;
-            margin: auto;
-        }
-        .upperarea{
-            margin: auto;
-            width: 600px;
-        }
-
-        .grayarea{
-            width: 600px;
-            margin: auto;
-            background-color: #161616;
-        }
-
-        .photo{
-            width: 600px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .textbox{
-            width: 500px;
-            margin: auto;
-        }
-
+            .main{
+                border: 5px outset #00A2E8;
+                background-color: #b0d9e5;
+                width: 1100px;
+                margin: auto;
+                text-align:center
+            }
+            .next {
+                color: #00A2E8;
+                font-size: 31px;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .gizli {
+                color: rgb(000, 000, 000);
+            }
+            body {
+                background-color: #daf0f7;
+            }
         </style>
     </head>
     <body>
-        <div class='main'>
-            <h1>Bir Tane Adam??</h1>
-            <div class='upperarea'>
-                <img class='photo' src='../Images/01.png' alt='Image could not be found' >
+        <div class="main">
+            <a href="Html/01.html" class="next" ><3 Zeynep <3</a>
+            <div>
+                <img src="Images/index.png" width="800">
             </div>
-            <div class='grayarea'>
-                <br>
-                <div class='textbox'>
-                    <p class='storytext'>bi tane adam varmış bi gün çaycıya gidip demiş ki</p>
-                    <p class='speak tarda'>Arda: Aşkım soğuk çayın var mı?</p>
-                    <p class='storytext'>demiş.</p>
-                    <a href='02.html' class='next'>==></a>
-                </div>
-                <br>
-            </div>
-            <br><a href='01.html' class='goback'>Go Back</a>
         </div>
-        <script>
-            const button = document.querySelector('#audio-button');
-            const audio = document.querySelector('#audio-file');
-            button.addEventListener('click', function() {audio.currentTime = 0;audio.play();});
-        </script>
     </body>
 </html>
-
